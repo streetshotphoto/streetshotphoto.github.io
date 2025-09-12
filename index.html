@@ -4,15 +4,53 @@
   <meta charset="UTF-8">
   <title>StreetShot Photo</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #333; }
-    p { color: #555; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background: url('DSC_5952') no repeat center
+center;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .hero: :before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+    .hero-text h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .hero-text {
+      font-size: 1.5em;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to StreetShot Photo</h1>
-  <p>Capturing the speed, passion and adrenaline of motorsports.</p>
-
-  <img src="DSC_5952.jpg" alt="Motorsports Photography" width="600">
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Welcome to StreetShot Photo</h1>
+      <p>Capturing the speed, passion and adrenaline of motorsports.</p>
+    </div>
+  </div>
 </body>
 </html>
