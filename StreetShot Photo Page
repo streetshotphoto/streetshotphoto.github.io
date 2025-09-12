@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>StreetShot Photo</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+    h1 { color: #333; }
+    p { color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to StreetShot Photo</h1>
+  <p>
+<p>
+</body>
+</html>
